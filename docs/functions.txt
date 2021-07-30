@@ -1,0 +1,13 @@
+regisztráció: név, emailcím és jelszó megadásával
+bejelentkezés: meglévő felhasználói fiókkal
+kijelentkezés: felhasználói fiókból
+adatkezelési nyilatkozat: "süti" kezelése
+új bejegyzés közzététele: cím, bejegyzés tárgya, bejegyzés szövege, címke megadásával
+beállítások módosítása: profil kép, user név, szöveges leírás, email cím, jelszó módosítása
+saját bejegyzések megtekintése
+saját bejegyzés módosítása
+saját bejegyzés törlése
+kedvenc bejegyzések megtekintése
+kedvenc bejegyzések megjelölése
+meglévő bejegyzéshez hozzászólás írása
+lapozás funkció vizsgálata
