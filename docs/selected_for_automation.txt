@@ -8,6 +8,6 @@ A007, TC007, felület automatizálás - fontos funkció
 A008, TC008, felület automatizálás - fontos funkció
 A009, TC009, felület automatizálás - nem fontos
 A010, TC010, felület automatizálás - fontos funkció
-A011, TC011, felület automatizálás - nem fontos
-A012, TC012, felület automatizálás - nem fontos
+A011, TC011, felület automatizálás - fontos funkció
+A012, TC012, felület automatizálás - fontos funkció
 A013, TC013, felület automatizálás - nem fontos
