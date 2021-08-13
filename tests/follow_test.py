@@ -41,7 +41,7 @@ def test_follow():
     assert username == driver.find_element(By.XPATH, username_x).text
     time.sleep(2)
 
-    # Favourit
+    # Favorite
     heart = driver.find_element(By.XPATH, heart_x)
     heart.click()
 
