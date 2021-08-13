@@ -21,6 +21,10 @@ def test_sign_in():
     driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/form/fieldset[2]/input').send_keys('Abcd123$')
     driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/form/button').click()
     time.sleep(3)
+    # Check login is managed
+
+    your_feed_btn = driver.find_element_by_class_name('nav-link')
+    assert your_feed_btn.is_enabled()
 
 
 test_sign_in()
