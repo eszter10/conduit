@@ -1,0 +1,73 @@
+{
+  "uid" : "fcedf923b8f7395a",
+  "name" : "test_delete",
+  "fullName" : "tests.delete_post_test#test_delete",
+  "historyId" : "081fa27eeecf034cbba509479734e90d",
+  "time" : {
+    "start" : 1629751282132,
+    "stop" : 1629751300096,
+    "duration" : 17964
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "delete_post_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az28-515"
+  }, {
+    "name" : "thread",
+    "value" : "3823-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.delete_post_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3b2d87979e37c568",
+        "reportUrl" : "https://eszter10.github.io/conduit/24//#testresult/3b2d87979e37c568",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629749004995,
+          "stop" : 1629749022832,
+          "duration" : 17837
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fcedf923b8f7395a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,73 @@
+{
+  "uid" : "7967649bdf92401e",
+  "name" : "test_filled_data",
+  "fullName" : "tests.data_test#test_filled_data",
+  "historyId" : "f32f15fc7af5ca7d1559d1cd5f260792",
+  "time" : {
+    "start" : 1629751272325,
+    "stop" : 1629751282129,
+    "duration" : 9804
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "data_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az28-515"
+  }, {
+    "name" : "thread",
+    "value" : "3823-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.data_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ed51442e04a8b5ef",
+        "reportUrl" : "https://eszter10.github.io/conduit/24//#testresult/ed51442e04a8b5ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629748995304,
+          "stop" : 1629749004993,
+          "duration" : 9689
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7967649bdf92401e.json",
+  "parameterValues" : [ ]
+}
