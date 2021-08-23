@@ -1,0 +1,53 @@
+{
+  "uid" : "9b7cd37697661f8f",
+  "name" : "test_edit_blog",
+  "fullName" : "tests.edit_test#test_edit_blog",
+  "historyId" : "539b2c1bba79a017f345d0395d850dcf",
+  "time" : {
+    "start" : 1629752033756,
+    "stop" : 1629752041283,
+    "duration" : 7527
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "edit_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az28-515"
+  }, {
+    "name" : "thread",
+    "value" : "3862-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.edit_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b7cd37697661f8f.json",
+  "parameterValues" : [ ]
+}

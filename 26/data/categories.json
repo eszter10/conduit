@@ -1,0 +1,64 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'new_post.csv'",
+      "children" : [ {
+        "name" : "test_newblog",
+        "uid" : "dcebc936ebe3307e",
+        "parentUid" : "d883f6f5188e96b8aa0399b572e8f4c7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629751989833,
+          "stop" : 1629751997502,
+          "duration" : 7669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d883f6f5188e96b8aa0399b572e8f4c7"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[2]/div/div/div[2]/div/div/div[6]/a/h1\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_comment",
+        "uid" : "df6ed4287eab7f6a",
+        "parentUid" : "d974fd40b5b9befca2a94adde174bc88",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629752055701,
+          "stop" : 1629752067321,
+          "duration" : 11620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d974fd40b5b9befca2a94adde174bc88"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert (4 + 1) == 11",
+      "children" : [ {
+        "name" : "test_delete",
+        "uid" : "3e02b2de8e20e198",
+        "parentUid" : "77a7a2c04b010b1f448fb26787189e23",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629752015967,
+          "stop" : 1629752033747,
+          "duration" : 17780
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77a7a2c04b010b1f448fb26787189e23"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
