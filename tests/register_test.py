@@ -37,7 +37,7 @@ def test_register():
     driver.find_element(By.XPATH, email_x).send_keys(email)
     driver.find_element(By.XPATH, pw_x).send_keys(pw)
     driver.find_element(By.XPATH, sign_up_x).click()
-    time.sleep(5)
+    time.sleep(10)
 
     # Check 'Welcome' message
     assert ('Welcome!' in driver.find_element(By.XPATH, '/html/body/div[2]/div/div[2]').text)
