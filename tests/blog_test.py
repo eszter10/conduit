@@ -12,7 +12,7 @@ opt.headless = True
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
 
 
-def test_new_blog():
+def test_newblog():
     driver.get("http://localhost:1667/")
     time.sleep(3)
 

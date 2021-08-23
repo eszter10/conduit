@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.options import Options
 import time
 
 opt = Options()
-opt.headless = False
+opt.headless = True
 
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
 
@@ -26,8 +26,4 @@ def test_sign_in():
     your_feed_btn = driver.find_element_by_class_name('nav-link')
     assert your_feed_btn.is_enabled()
 
-
-test_sign_in()
-time.sleep(3)
-
-driver.close()
+    driver.close()

@@ -5,7 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 opt = Options()
-opt.headless = False
+opt.headless = True
 
 driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=opt)
 
@@ -22,19 +22,11 @@ def test_sign_in():
     driver.find_element_by_xpath('//*[@id="app"]/div/div/div/div/form/button').click()
     time.sleep(3)
 
-
-# Log out
-def test_logout():
+    # Log out
     logout_btn = driver.find_element_by_xpath('//a[contains(text(),"Log out")]')
     logout_btn.click()
     text = driver.find_element_by_xpath('//a[contains(text(),"Sign up")]').text
     ## Check log out is managed
     assert text == 'Sign up'
 
-
-test_sign_in()
-time.sleep(5)
-test_logout()
-time.sleep(3)
-
-driver.close()
+    driver.close()

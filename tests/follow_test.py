@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 import time
 
 opt = Options()
-opt.headless = False
+opt.headless = True
 
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
 

@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 import time
 
 opt = Options()
-opt.headless = False
+opt.headless = True
 
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
 
@@ -27,7 +27,7 @@ def test_delete():
     sign_btn_x = '//*[@id="app"]/nav/div/ul/li[2]/a'
     sign_in_btn_x = '//*[@id="app"]/div/div/div/div/form/button'
     my_articles_btn_x = '//*[@id="app"]/div/div[2]/div/div/div[1]/ul/li[1]/a'
-    posttilte_x = '//*[@id="app"]/div/div[2]/div/div/div[2]/div/div/div[6]/a/h1'
+    posttilte_x = '//*[@id="app"]/div/div[2]/div/div/div[2]/div/div/div[1]/a/h1'
     delete_btn_x = '//*[@id="app"]/div/div[1]/div/div/span/button'
     article_preview = '//*[@class="article-preview"]'
 

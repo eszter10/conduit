@@ -6,7 +6,7 @@ import time
 from selenium.webdriver.common.by import By
 
 opt = Options()
-opt.headless = False
+opt.headless = True
 
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
 
@@ -35,7 +35,7 @@ def test_cookie():
     driver.get("http://localhost:1667/")
     time.sleep(3)
 
-    btn_list = driver.find_elements_by_xpath('//*[@id="cookie-policy-panel"]/div/div[2]/button[2]')
+    btn_list = driver.find_elements(By.XPATH, '//*[@id="cookie-policy-panel"]/div/div[2]/button[2]')
     assert len(btn_list) == 0
 
     driver.close()

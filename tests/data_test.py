@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 import time
 
 opt = Options()
-opt.headless = False
+opt.headless = True
 
 driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
 
@@ -43,8 +43,8 @@ def test_filled_data():
     time.sleep(2)
 
     # Pagination
-    pages = driver.find_elements_by_class_name("page-link")
-    print(len(pages))
+    pages = driver.find_elements(By.CLASS_NAME, "page-link")
+    # print(len(pages))
 
     for page in pages:
         page.click()
@@ -52,7 +52,4 @@ def test_filled_data():
 
     assert len(pages) == number_of_pages
 
-
-test_filled_data()
-time.sleep(2)
-driver.close()
+    driver.close()
