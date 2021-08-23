@@ -1,0 +1,59 @@
+{
+  "uid" : "4244753a7e3aab32",
+  "name" : "test_register",
+  "fullName" : "tests.register_test#test_register",
+  "historyId" : "62c89a6ecf57e99b98cd0e9f457d27c6",
+  "time" : {
+    "start" : 1629749084178,
+    "stop" : 1629749091518,
+    "duration" : 7340
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'Welcome!' in 'Registration failed!'\n +  where 'Registration failed!' = <selenium.webdriver.remote.webelement.WebElement (session=\"b71c6b0062d7d0da87feea6ae38e6eca\", element=\"5199144b-23ab-4401-bf76-ec5d853ac9b9\")>.text\n +    where <selenium.webdriver.remote.webelement.WebElement (session=\"b71c6b0062d7d0da87feea6ae38e6eca\", element=\"5199144b-23ab-4401-bf76-ec5d853ac9b9\")> = <bound method WebDriver.find_element of <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b71c6b0062d7d0da87feea6ae38e6eca\")>>('xpath', '/html/body/div[2]/div/div[2]')\n +      where <bound method WebDriver.find_element of <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b71c6b0062d7d0da87feea6ae38e6eca\")>> = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b71c6b0062d7d0da87feea6ae38e6eca\")>.find_element\n +      and   'xpath' = By.XPATH",
+  "statusTrace" : "def test_register():\n        # Collection of xpath\n        sign_up_btn = '//*[@id=\"app\"]/nav/div/ul/li[3]/a'\n        username_x = '//*[@id=\"app\"]/div/div/div/div/form/fieldset[1]/input'\n        email_x = '//*[@id=\"app\"]/div/div/div/div/form/fieldset[2]/input'\n        pw_x = '//*[@id=\"app\"]/div/div/div/div/form/fieldset[3]/input'\n        sign_up_x = '//*[@id=\"app\"]/div/div/div/div/form/button'\n    \n        # Enter random data\n        email = ''.join(random.choice(string.ascii_letters + string.digits) for i in range(10)) + '@mail.com'\n        pw = ''.join((random.choice(string.ascii_letters + string.digits) for i in range(10)))\n        username = ''.join((random.choice(string.ascii_letters + string.digits) for i in range(10)))\n    \n        # Sign up\n        driver.find_element(By.XPATH, sign_up_btn).click()\n        time.sleep(2)\n        driver.find_element(By.XPATH, username_x).send_keys(username)\n        driver.find_element(By.XPATH, email_x).send_keys(email)\n        driver.find_element(By.XPATH, pw_x).send_keys(pw)\n        driver.find_element(By.XPATH, sign_up_x).click()\n        time.sleep(5)\n    \n        # Check 'Welcome' message\n>       assert ('Welcome!' in driver.find_element(By.XPATH, '/html/body/div[2]/div/div[2]').text)\nE       assert 'Welcome!' in 'Registration failed!'\nE        +  where 'Registration failed!' = <selenium.webdriver.remote.webelement.WebElement (session=\"b71c6b0062d7d0da87feea6ae38e6eca\", element=\"5199144b-23ab-4401-bf76-ec5d853ac9b9\")>.text\nE        +    where <selenium.webdriver.remote.webelement.WebElement (session=\"b71c6b0062d7d0da87feea6ae38e6eca\", element=\"5199144b-23ab-4401-bf76-ec5d853ac9b9\")> = <bound method WebDriver.find_element of <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b71c6b0062d7d0da87feea6ae38e6eca\")>>('xpath', '/html/body/div[2]/div/div[2]')\nE        +      where <bound method WebDriver.find_element of <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b71c6b0062d7d0da87feea6ae38e6eca\")>> = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b71c6b0062d7d0da87feea6ae38e6eca\")>.find_element\nE        +      and   'xpath' = By.XPATH\n\ntests/register_test.py:43: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "register_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az28-515"
+  }, {
+    "name" : "thread",
+    "value" : "3781-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.register_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4244753a7e3aab32.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,53 @@
+{
+  "uid" : "183f8abdf9cf2b05",
+  "name" : "test_sign_in",
+  "fullName" : "tests.logout_test#test_sign_in",
+  "historyId" : "15d3ebb97b31f143b169b133bfcf1a6f",
+  "time" : {
+    "start" : 1629749066941,
+    "stop" : 1629749070322,
+    "duration" : 3381
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "logout_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az28-515"
+  }, {
+    "name" : "thread",
+    "value" : "3781-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.logout_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "183f8abdf9cf2b05.json",
+  "parameterValues" : [ ]
+}
