@@ -27,7 +27,7 @@ pw = 'Abcd123$'
 # Follow test
 def test_follow():
     driver.get('http://localhost:1667/')
-    time.sleep(3)
+    time.sleep(5)
     # Sign in
     sign_btn = driver.find_element(By.XPATH, sign_btn_x)
     sign_btn.click()

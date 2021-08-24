@@ -13,7 +13,7 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
 
 def test_cookie():
     driver.get("http://localhost:1667/")
-    time.sleep(3)
+    time.sleep(5)
 
     # Collection of xpath
     accept_btn = '//*[@id="cookie-policy-panel"]/div/div[2]/button[2]/div'

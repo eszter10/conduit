@@ -15,7 +15,7 @@ number_of_pages = 2
 
 def test_filled_data():
     driver.get("http://localhost:1667/")
-    time.sleep(3)
+    time.sleep(5)
 
     # Enter testdata
     email = 'testuser1@example.com'

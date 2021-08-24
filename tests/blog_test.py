@@ -14,7 +14,7 @@ driver = webdriver.Chrome(ChromeDriverManager().install(), options=opt)
 
 def test_newblog():
     driver.get("http://localhost:1667/")
-    time.sleep(3)
+    time.sleep(5)
 
     # Enter testdata
     email = 'testuser1@example.com'

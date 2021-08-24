@@ -10,7 +10,7 @@ opt.headless = True
 driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=opt)
 
 driver.get("http://localhost:1667/")
-time.sleep(3)
+time.sleep(5)
 
 
 # Sign in

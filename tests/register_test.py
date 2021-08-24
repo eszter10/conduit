@@ -14,7 +14,7 @@ driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), optio
 
 # Load page
 driver.get("http://localhost:1667/")
-time.sleep(3)
+time.sleep(5)
 
 
 def test_register():
