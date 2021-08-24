@@ -28,7 +28,7 @@ def test_comment():
     sign_btn_x = '//*[@id="app"]/nav/div/ul/li[2]/a'
     sign_in_btn_x = '//*[@id="app"]/div/div/div/div/form/button'
     my_title_x = '//*[@id="app"]/div/div[2]/div/div/div[1]/ul/li[1]/a'
-    post_tilte_x = '//*[@id="app"]/div/div[2]/div/div/div[2]/div/div/div[6]/a/h1'
+    post_tilte_x = '//*[@id="app"]/div/div[2]/div/div/div[2]/div/div/div[1]/a/h1'
     comment_x = '//*[@id="app"]/div/div[2]/div[2]/div/div/form/div[1]/textarea'
     comment_btn_x = '//*[@id="app"]/div/div[2]/div[2]/div/div/form/div[2]/button'
     comment_text_x = '//*[@id="app"]/div/div[2]/div[2]/div/div[2]/div[1]'
