@@ -1,0 +1,155 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/nav/div/ul/li[2]/a\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_newblog",
+        "uid" : "2169b01b267d4759",
+        "parentUid" : "daac8e29bb882ff62d0858a0f98dfa38",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629805704566,
+          "stop" : 1629805707672,
+          "duration" : 3106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_filled_data",
+        "uid" : "7ad1f756305ef0bc",
+        "parentUid" : "daac8e29bb882ff62d0858a0f98dfa38",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629805710913,
+          "stop" : 1629805714052,
+          "duration" : 3139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_delete",
+        "uid" : "d350dbe1be53181e",
+        "parentUid" : "daac8e29bb882ff62d0858a0f98dfa38",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629805714079,
+          "stop" : 1629805717266,
+          "duration" : 3187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_edit_blog",
+        "uid" : "918d5a73444741c0",
+        "parentUid" : "daac8e29bb882ff62d0858a0f98dfa38",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629805717292,
+          "stop" : 1629805720441,
+          "duration" : 3149
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_follow",
+        "uid" : "9bb362c9afba8775",
+        "parentUid" : "daac8e29bb882ff62d0858a0f98dfa38",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629805720467,
+          "stop" : 1629805723573,
+          "duration" : 3106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_comment",
+        "uid" : "8f3f00ec1b5b397f",
+        "parentUid" : "daac8e29bb882ff62d0858a0f98dfa38",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629805723687,
+          "stop" : 1629805726821,
+          "duration" : 3134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "daac8e29bb882ff62d0858a0f98dfa38"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"cookie-policy-panel\"]/div/div[2]/button[2]/div\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_cookie",
+        "uid" : "5a3d22224925a81a",
+        "parentUid" : "efffa9e65562cdd06d3821e79247f055",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629805707760,
+          "stop" : 1629805710887,
+          "duration" : 3127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "efffa9e65562cdd06d3821e79247f055"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//a[@href='#/login']\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_sign_in",
+        "uid" : "d156fad0d962ea46",
+        "parentUid" : "03787ba3974f7374de6081b0695eec3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629805723599,
+          "stop" : 1629805723613,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_sign_in",
+        "uid" : "8b6ba699f11a51b5",
+        "parentUid" : "03787ba3974f7374de6081b0695eec3f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629805723643,
+          "stop" : 1629805723658,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "03787ba3974f7374de6081b0695eec3f"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/nav/div/ul/li[3]/a\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_register",
+        "uid" : "46fedee476f07d21",
+        "parentUid" : "d70653df4e21645cf3e896e3f40cf0a8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629805726848,
+          "stop" : 1629805726861,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d70653df4e21645cf3e896e3f40cf0a8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
