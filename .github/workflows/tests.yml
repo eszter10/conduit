@@ -31,8 +31,8 @@ jobs:
       - name: Start Conduit
         run: docker-compose up -d
 
-      - name: Sleep for 80 seconds
-        run: sleep 80s
+      - name: Sleep for 90 seconds
+        run: sleep 90s
         shell: bash
 
       - name: Collect docker logs
