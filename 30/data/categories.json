@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/nav/div/ul/li[4]/a\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_newblog",
+        "uid" : "961741f1a7d8d7d",
+        "parentUid" : "4414cf97a4eec8a215370035494a7179",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629797859233,
+          "stop" : 1629797864859,
+          "duration" : 5626
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4414cf97a4eec8a215370035494a7179"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[2]/div[2]/div/div[2]/div[1]\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_comment",
+        "uid" : "7400edcdc4af5668",
+        "parentUid" : "8eb9268ad7813633c39cf75a91b2fbdf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629797923547,
+          "stop" : 1629797945408,
+          "duration" : 21861
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8eb9268ad7813633c39cf75a91b2fbdf"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
