@@ -1,0 +1,101 @@
+[ {
+  "uid" : "46012e6a0fc46400",
+  "name" : "test_comment",
+  "time" : {
+    "start" : 1629808846650,
+    "stop" : 1629808851786,
+    "duration" : 5136
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d91d6131e2432145",
+  "name" : "test_sign_in",
+  "time" : {
+    "start" : 1629808846529,
+    "stop" : 1629808846545,
+    "duration" : 16
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f06d5b8e205d939c",
+  "name" : "test_register",
+  "time" : {
+    "start" : 1629808851818,
+    "stop" : 1629808851835,
+    "duration" : 17
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a21829debd2fbe4b",
+  "name" : "test_follow",
+  "time" : {
+    "start" : 1629808841336,
+    "stop" : 1629808846489,
+    "duration" : 5153
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1e3d9916e457018f",
+  "name" : "test_delete",
+  "time" : {
+    "start" : 1629808831026,
+    "stop" : 1629808836159,
+    "duration" : 5133
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "84a3fded26a4949f",
+  "name" : "test_filled_data",
+  "time" : {
+    "start" : 1629808825563,
+    "stop" : 1629808830996,
+    "duration" : 5433
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d5f255108161274c",
+  "name" : "test_sign_in",
+  "time" : {
+    "start" : 1629808846581,
+    "stop" : 1629808846600,
+    "duration" : 19
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8fbc47c88272d34d",
+  "name" : "test_cookie",
+  "time" : {
+    "start" : 1629808820365,
+    "stop" : 1629808825532,
+    "duration" : 5167
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "abba27c7482e0a17",
+  "name" : "test_edit_blog",
+  "time" : {
+    "start" : 1629808836190,
+    "stop" : 1629808841304,
+    "duration" : 5114
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d3fa6ff7e3c4305a",
+  "name" : "test_newblog",
+  "time" : {
+    "start" : 1629808815077,
+    "stop" : 1629808820275,
+    "duration" : 5198
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
