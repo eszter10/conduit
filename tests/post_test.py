@@ -50,7 +50,7 @@ def test_comment():
     driver.find_element(By.XPATH, username_x).click()  # username click
     time.sleep(2)
     driver.find_element(By.XPATH, my_title_x).click()  # my title click
-    time.sleep(2)
+    time.sleep(10)
     driver.find_element(By.XPATH, post_tilte_x).click()  # post title click
     time.sleep(2)
 
