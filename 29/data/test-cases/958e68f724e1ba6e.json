@@ -1,0 +1,125 @@
+{
+  "uid" : "958e68f724e1ba6e",
+  "name" : "test_follow",
+  "fullName" : "tests.follow_test#test_follow",
+  "historyId" : "c0ac646734025eead42b9ff113645670",
+  "time" : {
+    "start" : 1629796667502,
+    "stop" : 1629796675365,
+    "duration" : 7863
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b41e33ab536dc9be",
+      "name" : "stdout",
+      "source" : "b41e33ab536dc9be.txt",
+      "type" : "text/plain",
+      "size" : 18
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "follow_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az81-118"
+  }, {
+    "name" : "thread",
+    "value" : "3720-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.follow_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "bd1246e93f2071cb",
+        "reportUrl" : "https://eszter10.github.io/conduit/28//#testresult/bd1246e93f2071cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629796484144,
+          "stop" : 1629796491919,
+          "duration" : 7775
+        }
+      }, {
+        "uid" : "2d6d7e3a967f80ae",
+        "reportUrl" : "https://eszter10.github.io/conduit/27//#testresult/2d6d7e3a967f80ae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629793622150,
+          "stop" : 1629793629931,
+          "duration" : 7781
+        }
+      }, {
+        "uid" : "3c2d9eefbd59b4d3",
+        "reportUrl" : "https://eszter10.github.io/conduit/26//#testresult/3c2d9eefbd59b4d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629752041285,
+          "stop" : 1629752048944,
+          "duration" : 7659
+        }
+      }, {
+        "uid" : "7521fcfd0d2686fb",
+        "reportUrl" : "https://eszter10.github.io/conduit/25//#testresult/7521fcfd0d2686fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629751333249,
+          "stop" : 1629751341064,
+          "duration" : 7815
+        }
+      }, {
+        "uid" : "ffe45c6157b4c1e5",
+        "reportUrl" : "https://eszter10.github.io/conduit/24//#testresult/ffe45c6157b4c1e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629749055886,
+          "stop" : 1629749063597,
+          "duration" : 7711
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "958e68f724e1ba6e.json",
+  "parameterValues" : [ ]
+}
