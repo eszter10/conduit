@@ -79,5 +79,3 @@ def test_newblog():
     for i, j in zip(url_title_list, urls):
         assert f'http://localhost:1667/#/articles/{i}' == j
     driver.close()
-
-
