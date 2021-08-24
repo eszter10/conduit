@@ -31,7 +31,7 @@ def test_newblog():
     tags_x = '//*[@id="app"]/div/div/div/div/form/fieldset/fieldset[4]/div/div/ul/li/input'
     sign_btn = '//*[@id="app"]/nav/div/ul/li[2]/a'
     signin_btn = '//*[@id="app"]/div/div/div/div/form/button'
-    newart_btn = '//*[@id="app"]/nav/div/ul/li[2]/a'
+    newart_btn = "//a[@href='#/editor']"
     publish = '//*[@id="app"]/div/div/div/div/form/button'
 
     # Sign in

@@ -31,7 +31,7 @@ def test_comment():
     post_tilte_x = '//*[@id="app"]/div/div[2]/div/div/div[2]/div/div/div[1]/a/h1'
     comment_x = '//*[@id="app"]/div/div[2]/div[2]/div/div/form/div[1]/textarea'
     comment_btn_x = '//*[@id="app"]/div/div[2]/div[2]/div/div/form/div[2]/button'
-    comment_text_x = '//*[@id="app"]/div/div[2]/div[2]/div/div[2]/div[1]'
+    comment_text_x = "//div[@class='card-block']"
 
     # Sign in
     sign_btn = driver.find_element(By.XPATH, sign_btn_x)
@@ -52,7 +52,7 @@ def test_comment():
     driver.find_element(By.XPATH, my_title_x).click()  # my title click
     time.sleep(10)
     driver.find_element(By.XPATH, post_tilte_x).click()  # post title click
-    time.sleep(2)
+    time.sleep(10)
 
     driver.find_element(By.XPATH, comment_x).send_keys(comment_text)
     driver.find_element(By.XPATH, comment_btn_x).click()
