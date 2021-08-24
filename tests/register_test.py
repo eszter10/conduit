@@ -1,4 +1,4 @@
-# TC001 - User Registration (with random data)
+# TC001 - User registration (with random data)
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
