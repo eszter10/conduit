@@ -1,0 +1,194 @@
+{
+  "uid" : "a9be9cde28818ee4",
+  "name" : "test_newblog",
+  "fullName" : "tests.blog_test#test_newblog",
+  "historyId" : "36654271b6857857b9572d31522e0433",
+  "time" : {
+    "start" : 1629810280283,
+    "stop" : 1629810302660,
+    "duration" : 22377
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "blog_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-622"
+  }, {
+    "name" : "thread",
+    "value" : "3697-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.blog_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 13,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "d3fa6ff7e3c4305a",
+        "reportUrl" : "https://eszter10.github.io/conduit/36//#testresult/d3fa6ff7e3c4305a",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/nav/div/ul/li[2]/a\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1629808815077,
+          "stop" : 1629808820275,
+          "duration" : 5198
+        }
+      }, {
+        "uid" : "fbed0124eb2de343",
+        "reportUrl" : "https://eszter10.github.io/conduit/35//#testresult/fbed0124eb2de343",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/nav/div/ul/li[2]/a\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1629806675148,
+          "stop" : 1629806680284,
+          "duration" : 5136
+        }
+      }, {
+        "uid" : "2169b01b267d4759",
+        "reportUrl" : "https://eszter10.github.io/conduit/34//#testresult/2169b01b267d4759",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/nav/div/ul/li[2]/a\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1629805704566,
+          "stop" : 1629805707672,
+          "duration" : 3106
+        }
+      }, {
+        "uid" : "40b14b55fc3eb591",
+        "reportUrl" : "https://eszter10.github.io/conduit/33//#testresult/40b14b55fc3eb591",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/nav/div/ul/li[2]/a\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1629804199933,
+          "stop" : 1629804203077,
+          "duration" : 3144
+        }
+      }, {
+        "uid" : "2905f67d24201d55",
+        "reportUrl" : "https://eszter10.github.io/conduit/32//#testresult/2905f67d24201d55",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/nav/div/ul/li[2]/a\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1629802586973,
+          "stop" : 1629802590182,
+          "duration" : 3209
+        }
+      }, {
+        "uid" : "157f23777d7a22bf",
+        "reportUrl" : "https://eszter10.github.io/conduit/31//#testresult/157f23777d7a22bf",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/nav/div/ul/li[4]/a\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1629798019918,
+          "stop" : 1629798025739,
+          "duration" : 5821
+        }
+      }, {
+        "uid" : "961741f1a7d8d7d",
+        "reportUrl" : "https://eszter10.github.io/conduit/30//#testresult/961741f1a7d8d7d",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/nav/div/ul/li[4]/a\"}\n  (Session info: headless chrome=92.0.4515.131)",
+        "time" : {
+          "start" : 1629797859233,
+          "stop" : 1629797864859,
+          "duration" : 5626
+        }
+      }, {
+        "uid" : "207d2957972da39b",
+        "reportUrl" : "https://eszter10.github.io/conduit/29//#testresult/207d2957972da39b",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: '../new_post.csv'",
+        "time" : {
+          "start" : 1629796615296,
+          "stop" : 1629796622993,
+          "duration" : 7697
+        }
+      }, {
+        "uid" : "fc41972f5e5475e5",
+        "reportUrl" : "https://eszter10.github.io/conduit/28//#testresult/fc41972f5e5475e5",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: '../new_post.csv'",
+        "time" : {
+          "start" : 1629796432216,
+          "stop" : 1629796439859,
+          "duration" : 7643
+        }
+      }, {
+        "uid" : "f9b1fab7ca0f0d0e",
+        "reportUrl" : "https://eszter10.github.io/conduit/27//#testresult/f9b1fab7ca0f0d0e",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'new_post.csv'",
+        "time" : {
+          "start" : 1629793570501,
+          "stop" : 1629793578164,
+          "duration" : 7663
+        }
+      }, {
+        "uid" : "dcebc936ebe3307e",
+        "reportUrl" : "https://eszter10.github.io/conduit/26//#testresult/dcebc936ebe3307e",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'new_post.csv'",
+        "time" : {
+          "start" : 1629751989833,
+          "stop" : 1629751997502,
+          "duration" : 7669
+        }
+      }, {
+        "uid" : "1ec4b43f8832bf40",
+        "reportUrl" : "https://eszter10.github.io/conduit/25//#testresult/1ec4b43f8832bf40",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'new_post.csv'",
+        "time" : {
+          "start" : 1629751255791,
+          "stop" : 1629751263493,
+          "duration" : 7702
+        }
+      }, {
+        "uid" : "32fed9e3ed55beda",
+        "reportUrl" : "https://eszter10.github.io/conduit/24//#testresult/32fed9e3ed55beda",
+        "status" : "broken",
+        "statusDetails" : "FileNotFoundError: [Errno 2] No such file or directory: 'new_post.csv'",
+        "time" : {
+          "start" : 1629748978781,
+          "stop" : 1629748986548,
+          "duration" : 7767
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a9be9cde28818ee4.json",
+  "parameterValues" : [ ]
+}
