@@ -1,0 +1,91 @@
+{
+  "uid" : "d828da480ea9ea0a",
+  "name" : "test_filled_data",
+  "fullName" : "tests.data_test#test_filled_data",
+  "historyId" : "f32f15fc7af5ca7d1559d1cd5f260792",
+  "time" : {
+    "start" : 1629793586920,
+    "stop" : 1629793596643,
+    "duration" : 9723
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "data_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az28-515"
+  }, {
+    "name" : "thread",
+    "value" : "3786-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.data_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "67a17d1bf400cdb",
+        "reportUrl" : "https://eszter10.github.io/conduit/26//#testresult/67a17d1bf400cdb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629752006236,
+          "stop" : 1629752015965,
+          "duration" : 9729
+        }
+      }, {
+        "uid" : "7967649bdf92401e",
+        "reportUrl" : "https://eszter10.github.io/conduit/25//#testresult/7967649bdf92401e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629751272325,
+          "stop" : 1629751282129,
+          "duration" : 9804
+        }
+      }, {
+        "uid" : "ed51442e04a8b5ef",
+        "reportUrl" : "https://eszter10.github.io/conduit/24//#testresult/ed51442e04a8b5ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629748995304,
+          "stop" : 1629749004993,
+          "duration" : 9689
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d828da480ea9ea0a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,91 @@
+{
+  "uid" : "91dd487c383b185e",
+  "name" : "test_sign_in",
+  "fullName" : "tests.login_test#test_sign_in",
+  "historyId" : "ad9305273242efc959ab46edcf818f47",
+  "time" : {
+    "start" : 1629793629934,
+    "stop" : 1629793633293,
+    "duration" : 3359
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "login_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az28-515"
+  }, {
+    "name" : "thread",
+    "value" : "3786-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.login_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "9ea35affaf8d27c0",
+        "reportUrl" : "https://eszter10.github.io/conduit/26//#testresult/9ea35affaf8d27c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629752048947,
+          "stop" : 1629752052266,
+          "duration" : 3319
+        }
+      }, {
+        "uid" : "7c17edf916efb454",
+        "reportUrl" : "https://eszter10.github.io/conduit/25//#testresult/7c17edf916efb454",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629751341067,
+          "stop" : 1629751344448,
+          "duration" : 3381
+        }
+      }, {
+        "uid" : "e364537b2c5671de",
+        "reportUrl" : "https://eszter10.github.io/conduit/24//#testresult/e364537b2c5671de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629749063599,
+          "stop" : 1629749066938,
+          "duration" : 3339
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "91dd487c383b185e.json",
+  "parameterValues" : [ ]
+}
