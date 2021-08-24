@@ -1,0 +1,128 @@
+{
+  "uid" : "25c5a8e4d0ca7580",
+  "name" : "test_register",
+  "fullName" : "tests.register_test#test_register",
+  "historyId" : "62c89a6ecf57e99b98cd0e9f457d27c6",
+  "time" : {
+    "start" : 1629798106913,
+    "stop" : 1629798124415,
+    "duration" : 17502
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "register_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az74-622"
+  }, {
+    "name" : "thread",
+    "value" : "3964-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.register_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "86c03c54fb1365e7",
+        "reportUrl" : "https://eszter10.github.io/conduit/30//#testresult/86c03c54fb1365e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629797945444,
+          "stop" : 1629797962915,
+          "duration" : 17471
+        }
+      }, {
+        "uid" : "4728ac79062aac4f",
+        "reportUrl" : "https://eszter10.github.io/conduit/29//#testresult/4728ac79062aac4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629796696387,
+          "stop" : 1629796713988,
+          "duration" : 17601
+        }
+      }, {
+        "uid" : "25328e41adb06c37",
+        "reportUrl" : "https://eszter10.github.io/conduit/28//#testresult/25328e41adb06c37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629796510603,
+          "stop" : 1629796528166,
+          "duration" : 17563
+        }
+      }, {
+        "uid" : "2977fcea6d492c70",
+        "reportUrl" : "https://eszter10.github.io/conduit/27//#testresult/2977fcea6d492c70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629793648465,
+          "stop" : 1629793665941,
+          "duration" : 17476
+        }
+      }, {
+        "uid" : "7f9afa3f5e2c2071",
+        "reportUrl" : "https://eszter10.github.io/conduit/26//#testresult/7f9afa3f5e2c2071",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629752067361,
+          "stop" : 1629752084835,
+          "duration" : 17474
+        }
+      }, {
+        "uid" : "56411809bd893e0b",
+        "reportUrl" : "https://eszter10.github.io/conduit/25//#testresult/56411809bd893e0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1629751359726,
+          "stop" : 1629751372261,
+          "duration" : 12535
+        }
+      }, {
+        "uid" : "4244753a7e3aab32",
+        "reportUrl" : "https://eszter10.github.io/conduit/24//#testresult/4244753a7e3aab32",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'Welcome!' in 'Registration failed!'\n +  where 'Registration failed!' = <selenium.webdriver.remote.webelement.WebElement (session=\"b71c6b0062d7d0da87feea6ae38e6eca\", element=\"5199144b-23ab-4401-bf76-ec5d853ac9b9\")>.text\n +    where <selenium.webdriver.remote.webelement.WebElement (session=\"b71c6b0062d7d0da87feea6ae38e6eca\", element=\"5199144b-23ab-4401-bf76-ec5d853ac9b9\")> = <bound method WebDriver.find_element of <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b71c6b0062d7d0da87feea6ae38e6eca\")>>('xpath', '/html/body/div[2]/div/div[2]')\n +      where <bound method WebDriver.find_element of <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b71c6b0062d7d0da87feea6ae38e6eca\")>> = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"b71c6b0062d7d0da87feea6ae38e6eca\")>.find_element\n +      and   'xpath' = By.XPATH",
+        "time" : {
+          "start" : 1629749084178,
+          "stop" : 1629749091518,
+          "duration" : 7340
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "25c5a8e4d0ca7580.json",
+  "parameterValues" : [ ]
+}
