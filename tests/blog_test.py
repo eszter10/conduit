@@ -48,7 +48,7 @@ def test_newblog():
 
     url_title_list = []
     # Fill in new article
-    with open('../new_post.csv') as csvfile:
+    with open('new_post.csv') as csvfile:
         csvreader = csv.reader(csvfile)
         next(csvreader)
         for row in csvreader:
