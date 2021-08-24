@@ -31,7 +31,7 @@ def test_comment():
     post_tilte_x = '//*[@id="app"]/div/div[2]/div/div/div[2]/div/div/div[1]/a/h1'
     comment_x = '//*[@id="app"]/div/div[2]/div[2]/div/div/form/div[1]/textarea'
     comment_btn_x = '//*[@id="app"]/div/div[2]/div[2]/div/div/form/div[2]/button'
-    comment_text_x = "//div[@class='card-block']"
+    comment_text_x = "//p[@class='card-text']"
 
     # Sign in
     sign_btn = driver.find_element(By.XPATH, sign_btn_x)
